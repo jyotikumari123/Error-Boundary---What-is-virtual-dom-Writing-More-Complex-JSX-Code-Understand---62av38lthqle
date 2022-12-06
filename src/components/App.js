@@ -3,8 +3,9 @@ import "../styles/App.css";
 import Component from "./Component";
 import ErrorBoundary from "./ErrorBoundary";
 const App = () => {
-
-
+  errorGenerator()
+  changeFunc()
+    
   return (
 
     <div id="main">
