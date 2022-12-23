@@ -11,9 +11,7 @@ class ErrorBoundary extends React.Component {
     return { hasError : true };
   }
 
-  componentDidCatch(error,errorInfo){
-    logErrorToMyService(error,errorInfo);
-  }
+  
  
 
   render() {
@@ -21,7 +19,7 @@ class ErrorBoundary extends React.Component {
       return (
         <p id="error">
           There is an error in your react app. 
-          Please Check again. This message has been genrated from error boundary.
+          Please Check again. This message has been generated from error boundary.
         </p>
       );
     }
