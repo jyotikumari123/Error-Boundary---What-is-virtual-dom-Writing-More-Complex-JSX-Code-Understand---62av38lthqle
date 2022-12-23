@@ -8,6 +8,7 @@ const Component = (props) => {
     <>
     {    
         error && <div>{somethingNotDefined}</div>
+        
     }
     </>
   );
